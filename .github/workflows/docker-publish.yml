@@ -33,5 +33,5 @@ jobs:
           context: .  # Set the context to the repository root
           file: ./Dockerfile  # Path to your Dockerfile
           push: true  # Push the image to Docker Hub
-          tags: ${{ secrets.hiteshmechlin }}/timetracker:tagone  # Tag for Docker image
+          tags: hiteshmechlin/timetracker:tagone # Tag for Docker image
 
