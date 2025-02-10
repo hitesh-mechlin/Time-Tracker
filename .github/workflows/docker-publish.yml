@@ -4,7 +4,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main  # You can change this to your branch name if it's different
+      - production  # You can change this to your branch name if it's different
   workflow_dispatch:  # Allow the workflow to be manually triggered
 
 jobs:
